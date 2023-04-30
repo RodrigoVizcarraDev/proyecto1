@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* Estilos de reseteo */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* Estilos de reseteo */
+
+.logo {
+    width: 100px;
+    
+}
+.header {
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    box-shadow: 0 -3px 15px black;
+    display: flex;
+}
+.navbar {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* margin: 10px 20px 30px 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_ul {
+    display: flex;
+    gap: 10px;
+}
+.main {
+    padding-top: 70px;
+}
+/* Estilos seccion sobre mi */
+.seccion_sobremi{
+    width: 100%;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagen_sobremi {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.titulo_sobremi {
+    margin: 20px 0;
+}
+.parrafo_sobremi {
+
+}
+.link_descargarcv {
+    background-color: rgb(171, 89, 171);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 20px 0;
+}
+/* Estilos seccion sobre mi */
+
+.seccion_contacto {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px 20px;
+}
+.seccion_hablemos{
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: rgb(237, 201, 237);
+}
+.titulo_contacto{
+
+}
+.parrafo_contacto{
+
+}
+.seccion_redessociales {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.icono {
+    font-size: 50px;
+    color: rgb(30, 29, 29);
+}
+
+/* Estilos footer */
+
+.footer {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 70px;
+    background-color:  rgb(171, 89, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.parrafo_copy {
+    color: white;
+    /* font-weight*/
+}
